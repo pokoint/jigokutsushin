@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>きょうの地獄通信</title>
+<meta name="keywords" content="萌研社,地狱通信,地狱少女,地狱入口" />
+<meta name="description" content="汝之恨吾聞之,此怨此恨,將流向地獄.地獄少女閻魔愛,將在午夜子時,聽君之怨恨,代為消之." />
+<meta name="renderer" content="webkit">
+<meta http-equiv="renderer" content="webkit">
+
+<link rel="shortcut icon" href="Favicon.ico">
+<link rel="bookmark" href="Favicon.ico">
+<link rel="stylesheet" href="style.css" type="text/css">
+<link type="text/css" rel="stylesheet" href="css/style.css"/>
+</head>
+
+<body>
+<div id="info">
+	<!--地獄少女プロジェクト／-->
+</div>
+<div id="clock">
+	<a class="clockh">Not Found</a>
+	<hr noshade="noshade">
+	<a class="clockp">閻魔愛會在午夜零點出現／Please visit at Zero o'clock.</a>
+</div>
+<div id="fire">
+	<video id="animate" width="160" height="320" onended="FireEnd()">
+		<source src="images/fire.mp4" type="video/mp4"/>
+	</video>
+</div>
+<div id="start">
+	<div id="title">
+		<a>あなたの怨み、晴らします。</a>
+	</div>
+	<form id="hell" name="hell" action="index.htm" onSubmit="return CheckInput();">
+		<input id="nickname" name="nickname" maxLength="44"><br>
+		<input id="btn_send" type="submit" value="送 信">
+	</form>
+</div>
+<div id="end">
+	<div id="end_logo"></div>
+	<a class="end_h">已收到，此恨此怨將流入地獄</a><br>
+	<a class="end_p">※頁面將在兩秒鐘後消失</a>
+</div>
+<script type="text/javascript" src="hell.js" charset="UTF-8"></script>
+<script type="text/javascript" src="https://tajs.qq.com/stats?sId=54859600" charset="UTF-8"></script>
+<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
